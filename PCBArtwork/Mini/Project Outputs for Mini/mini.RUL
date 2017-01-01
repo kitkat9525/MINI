@@ -1,0 +1,17 @@
+DRC Rules Export File for PCB: D:\Develoment\MINI\PCBArtwork\Mini\mini.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_5|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance_4|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance_3|Scope=Board|Minimum=23.62
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=10.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_TSX-3225|Scope=Board|Minimum=2.76
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_CP2102|Scope=Board|Minimum=2.76
+RuleKind=Width|RuleName=Width_VBUS|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width_GND|Scope=Board|Minimum=19.69
+RuleKind=Width|RuleName=Width_5V|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_ATmega328P-MU|Scope=Board|Minimum=2.76
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_HIRO|Scope=Board|Minimum=2.76

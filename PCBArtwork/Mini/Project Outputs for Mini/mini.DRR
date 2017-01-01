@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: mini.PcbDoc   2017-07-26  ¿ÀÀü 10:50:09
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : mini-RoundHoles.TXT
+ASCII SlotHoles File : mini-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             41        PTH        152.77mm (6.01inch)
+T2      0.5mm (20mil)                                             Round             1         PTH        0.00mm (0.00inch)
+T3      0.65mm (26mil)                                            Slot              2         PTH        10.10mm (0.40inch)
+T4      0.825mm (32mil)                                           Slot              2         PTH        15.43mm (0.61inch)
+T5      0.9mm (35mil)                                             Round             33        PTH        152.54mm (6.01inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              79
+
+Total Processing Time (hh:mm:ss) : 00:00:00

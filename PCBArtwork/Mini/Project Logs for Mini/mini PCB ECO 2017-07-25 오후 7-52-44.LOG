@@ -1,0 +1,16 @@
+Change Component Designator: OldDesignator=16MHz NewDesignator=X1
+Change Component Designator: OldDesignator=ATmega328P-MU NewDesignator=U2
+Change Component Designator: OldDesignator=BATT NewDesignator=P5
+Change Component Designator: OldDesignator=BLE NewDesignator=D2
+Change Component Designator: OldDesignator=CP2102 NewDesignator=U4
+Change Component Designator: OldDesignator=MENU NewDesignator=P10
+Change Component Designator: OldDesignator=MOTOR NewDesignator=P9
+Change Component Designator: OldDesignator=OK NewDesignator=P11
+Change Component Designator: OldDesignator=OLED 4WIRE NewDesignator=P2
+Change Component Designator: OldDesignator=OLED 7WIRE NewDesignator=P1
+Change Component Designator: OldDesignator=ON NewDesignator=D4
+Change Component Designator: OldDesignator=Pulse NewDesignator=P8
+Change Component Designator: OldDesignator=RESET NewDesignator=S1
+Change Component Designator: OldDesignator=UART NewDesignator=P3
+Change Component Designator: OldDesignator=USB NewDesignator=P7
+Change Net Name : Old Net Name=VGND New Net Name=GND

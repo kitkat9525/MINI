@@ -1,0 +1,73 @@
+Change Component Comment : Designator=USB PW Old Comment=BATT New Comment=USB PW
+Change Component Comment : Designator=BATT Old Comment=POWER New Comment=BATT
+Change Component Designator: OldDesignator=16MHz NewDesignator=X1
+Change Component Designator: OldDesignator=ATmega328P-MU NewDesignator=U2
+Change Component Designator: OldDesignator=BATT NewDesignator=P5
+Change Component Designator: OldDesignator=BLE NewDesignator=D2
+Change Component Designator: OldDesignator=BLE NewDesignator=U3
+Change Component Designator: OldDesignator=CP2102 NewDesignator=U4
+Change Component Designator: OldDesignator=MENU NewDesignator=P10
+Change Component Designator: OldDesignator=MOTOR NewDesignator=P9
+Change Component Designator: OldDesignator=OK NewDesignator=P11
+Change Component Designator: OldDesignator=OLED 4WIRE NewDesignator=P2
+Change Component Designator: OldDesignator=OLED 7WIRE NewDesignator=P1
+Change Component Designator: OldDesignator=Pulse NewDesignator=P8
+Change Component Designator: OldDesignator=PW NewDesignator=D4
+Change Component Designator: OldDesignator=RESET NewDesignator=S1
+Change Component Designator: OldDesignator=UART NewDesignator=P3
+Change Component Designator: OldDesignator=USB PW NewDesignator=P7
+Added Component: Designator=R2(J1-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R7(J1-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R8(J1-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=U1(SOIJ-SM8_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "revP, Oct-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Lead Plastic Small Outline (SM) - Medium, 5.28 mm Body [SOIJ]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOIJ-SM8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revBB, Aug-2009"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ADC4 Pin=R2-1
+Added Pin To Net: NetName=5V Pin=R2-2
+Added Pin To Net: NetName=VGND Pin=R7-1
+Added Pin To Net: NetName=ADC5 Pin=R8-1
+Added Pin To Net: NetName=5V Pin=R8-2
+Added Pin To Net: NetName=VGND Pin=U1-1
+Added Pin To Net: NetName=VGND Pin=U1-2
+Added Pin To Net: NetName=VGND Pin=U1-3
+Added Pin To Net: NetName=VGND Pin=U1-4
+Added Pin To Net: NetName=ADC4 Pin=U1-5
+Added Pin To Net: NetName=ADC5 Pin=U1-6
+Added Pin To Net: NetName=5V Pin=U1-8
+Added Pin To Net: NetName=TX Pin=U4-25
+Added Pin To Net: NetName=RX Pin=U4-26
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR7_2 Pin=U1-7
+Added Net: Name=NetR7_2
+Added Member To Class: ClassName=Sheet1 Member=Component R2 Res2
+Added Member To Class: ClassName=Sheet1 Member=Component R7 Res2
+Added Member To Class: ClassName=Sheet1 Member=Component R8 Res2
+Added Member To Class: ClassName=Sheet1 Member=Component U1 24LC256T-E/SM
+Added Member To Class: ClassName=Sheet1 Member=Component U3 HM-10

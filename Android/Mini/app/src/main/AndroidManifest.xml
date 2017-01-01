@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kitkat.android.mini">
+
+    <!-- Uses-PermissionManager for Bluetooth Low Energy -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <!-- Uses-Feature for Bluetooth Low Energy Capable Device-->
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+    <!--
+        In order to receive location updates from NETWORK_PROVIDER or GPS_PROVIDER,
+        you must request the user's permission by declaring either the {@code ACCESS_COARSE_LOCATION} or {@code ACCESS_FINE_LOCATION} permission,
+        respectively, in your Android manifest file. Without these permissions, your app's requests for location updates fail with a permission error.
+
+        If you are using both NETWORK_PROVIDER and GPS_PROVIDER, then you need to request only the {@code ACCESS_FINE_LOCATION} permission,
+        because it includes permission for both providers. PermissionManager for {@code ACCESS_COARSE_LOCATION} allows access only to NETWORK_PROVIDER.
+
+        If your app targets Android 5.0 (API level 21) or higher,
+        you must declare that your app uses the android.hardware.location.network or android.hardware.location.gps hardware feature in the manifest file,
+        depending on whether your app receives location updates from NETWORK_PROVIDER or from GPS_PROVIDER.
+        If your app receives location information from either of these location provider sources,
+        you need to declare that the app uses these hardware features in your app manifest. On devices running versions prior to Android 5.0 (API 21),
+        requesting the {@code ACCESS_FINE_LOCATION} or {@code ACCESS_COARSE_LOCATION} permission includes an implied request for location hardware features.
+        However, requesting those permissions does not automatically request location hardware features on Android 5.0 (API level 21) and higher.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <!-- Uses-PermissionManager for Broadcast Receiver SMS-->
+        <uses-permission android:name="android.permission.READ_SMS"/>
+        <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+    <!-- Uses-PermissionManager for Broadcast Receiver Incoming Phone Call -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <receiver android:name=".MyBroadcastReceiver">
+            <intent-filter android:priority="10000">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".IncomingCallBroadcastReceiver">
+            <intent-filter android:priority="10000">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+    -->
+    </application>
+
+</manifest>
